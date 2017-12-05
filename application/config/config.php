@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['database_host']	= 'localhost';
 $config['database_user']	= 'root';
 $config['database_pass'] 	= '';
-$config['database_name']	= 'sim_penjualan';
+$config['database_name']	= '';
 
 //Setingan Base URL
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
@@ -41,12 +41,12 @@ $config['css'] 				= $config['assets'].'css/';
 $config['js'] 				= $config['assets'].'js/';
 $config['img'] 				= $config['assets'].'img/';
 $config['plugin'] 			= $config['assets'].'plugin/';
-$config['bootstrap']		= $config['plugin'].'bootstrap-3.3.6/';
-$config['font_awesome']		= $config['plugin'].'font-awesome/';
+$config['bootstrap']                    = $config['plugin'].'bootstrap-3.3.6/';
+$config['font_awesome']                 = $config['plugin'].'font-awesome/';
 
 //Setingan Judul & Footer Web
-$config['web_title']		= "Aplikasi Kasir";
-$config['web_footer']		= $config['web_title']." &copy; 2017. Toko ATHIFA Programmed  by <a href='https://www.facebook.com/clyfen.salibana' target='blank'>Chlyfen Richard</a>";
+$config['web_title']		= "LayananOke";
+//$config['web_footer']		= $config['web_title']." &copy; 2017. Toko ATHIFA Programmed  by <a href='https://www.facebook.com/clyfen.salibana' target='blank'>Chlyfen Richard</a>";
 
 /*
 |--------------------------------------------------------------------------

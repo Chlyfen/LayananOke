@@ -3,13 +3,13 @@
 <div class="container-fluid">
     <div class="login-panel">
 	<center>
-            <img src="<?php echo config_item('img'); ?>logo.png" />
+            <!--<img src="<?php //echo config_item('img'); ?>logo.png" />-->
 	</center>
 	<div class='panel panel-default'>
             <div class='panel-body'>
             <?php echo form_open('secure', array('id' => 'FormLogin')); ?>
 		<div class="form-group">
-		<label>Username</label>
+		<label>Username or Email</label>
                     <div class="input-group">
                         <div class="input-group-addon">
                             <span class='glyphicon glyphicon-user'></span>
@@ -40,10 +40,13 @@
 		</div>
 
 		<button type="submit" class="btn btn-primary">
-                    <span class='glyphicon glyphicon-log-in' aria-hidden="true"></span> Sign In
+                    <span class='glyphicon glyphicon-log-in' aria-hidden="true"></span> LOG IN
 		</button>
-		<button type="reset" class="btn btn-default" id='ResetData'>Reset</button>
-                    <?php echo form_close(); ?>
+                <br></br>
+                Belum punya akun ? <a href="localhost/LayananOke"  </a>Daftar dsini</a><br></br>
+                Lupa Password <a href="localhost/LayananOke"</a>Reset Password <br>
+		<!--<button type="reset" class="btn btn-default" id='ResetData'>Reset</button>-->
+                  
                 
                 <div id='ResponseInput'></div>
 	</div>
